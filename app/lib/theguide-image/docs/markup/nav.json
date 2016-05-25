@@ -1,0 +1,90 @@
+{
+  "alwaysShowMarkup" : true,
+  "docs": [
+    {
+      "title": "",
+      "content": "introduction/introduction.html"
+    },
+    {
+      "title": "Base",
+      "content": "base/base.html"
+    },
+    {
+      "title": "Options global",
+      "sections": [
+        {
+          "title": "Circle",
+          "content": "options-global/circle.html"
+        },
+        {
+          "title": "Responsive",
+          "content": "options-global/responsive.html"
+        },
+        {
+          "title": "Rounded",
+          "content": "options-global/rounded.html"
+        },
+        {
+          "title": "Thumbnail",
+          "content": "options-global/thumbnail.html"
+        }
+      ]
+    },
+    {
+      "title": "Sizes",
+      "sections": [
+        {
+          "title": "Sizes",
+          "content": "sizes/sizes.html"
+        }
+      ]
+    },
+    {
+      "title": "Extensions",
+      "sections": [
+        {
+          "title": "Figure",
+          "content": "extensions/figure.html"
+        },
+        {
+          "title": "Grid",
+          "content": "extensions/grid.html"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "content": "accessibility/accessibility.html",
+      "sections": [
+        {
+          "title": "HTML-CSS",
+          "content": "accessibility/html-css.html"
+        },
+        {
+          "title": "WAI-ARIA",
+          "content": "accessibility/wai-aria.html",
+          "sections": [
+            {
+              "title": "Roles, States and Properties",
+              "content": "accessibility/roles-states-properties.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Example images",
+      "content": "example-images/examples.html",
+      "sections": [
+        {
+          "title": "Full width",
+          "content": "example-images/full-width.html"
+        },
+        {
+          "title": "Articles",
+          "content": "example-images/articles.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "theguide-toggle",
+  "version": "0.0.11",
+  "description": "The guide ui component: toggle",
+  "dependencies": {
+    "angular-animate": "1.2.25",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master"
+  },
+  "moduleName": "tgToggle",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "toggle"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-toggle.js"
+}

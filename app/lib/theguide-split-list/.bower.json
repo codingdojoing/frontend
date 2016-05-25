@@ -1,0 +1,29 @@
+{
+  "name": "theguide-split-list",
+  "version": "0.0.8",
+  "description": "The guide helper component: split-list. Please note this is a 'private' directive, meant for use in the Guide components",
+  "dependencies": {
+    "spectingular-core": "latest",
+    "theguide-toggle": "latest",
+    "theguide-utils": "latest"
+  },
+  "moduleName": "tgSplitList",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "split-list"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-split-list.js",
+  "_release": "0.0.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.8",
+    "commit": "81a8f86381bbfef3126c8f8aa453c69b3520135c"
+  },
+  "_source": "ssh://git@stash.europe.intranet:7999/bow/bower-theguide-split-list.git",
+  "_target": "*",
+  "_originalSource": "theguide-split-list"
+}

@@ -1,0 +1,28 @@
+<p>The actual active element within the ribbon receives the <code>active</code> class on the relevant <code>ribbon-element</code>. If an element within the toggable list is active, add the <code>active</code> class to the <code>ribbon-element</code> which toggles the list.</p>
+<p>Change an <code>&lt;a&gt;</code> to a <code>&lt;span&gt;</code> if it becomes active.</p>
+
+<example>
+  <demo src="components/independent/ribbon/docs/states/examples/active.example.html"></demo>
+
+  <source-code>
+    <!-- Active ribbon element -->
+    ...
+    <span class="btn btn-transparent btn-wrap ribbon-element active" aria-selected="true">
+      ...
+      <span class="sr-only">Current page</span>
+      Page title
+      ...
+    </span>
+    ...
+
+
+    <!-- Active ribbon element to toggle the list -->
+    ...
+    <div class="btn btn-transparent ribbon-element ribbon-element-more active">
+      ...
+      More
+      ...
+    </div>
+    ...
+  </source-code>
+</example>

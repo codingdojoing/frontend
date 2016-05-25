@@ -1,0 +1,25 @@
+{
+  "name": "theguide-image",
+  "version": "0.0.13",
+  "description": "A picture is worth a thousand words. Use images to complement and/or liven up your content.",
+  "keywords": [
+    "image",
+    "lazy loading"
+  ],
+  "owners": [
+    "The Guide"
+  ],
+  "dependencies": {
+    "angular-animate": "1.2.25",
+    "spectingular-core": "latest",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master",
+    "theguide-utils": "latest"
+  },
+  "moduleName": "tgImage",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-image.js"
+}

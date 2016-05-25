@@ -1,0 +1,19 @@
+{
+  "deletedFiles" : [ ],
+  "generatedFiles" : {
+    "/test/protractor/controllers/step1Spec.js" : "2320544913",
+    "/test/unit/controllers/headerCtrlSpec.js" : "3500719046",
+    "/test/protractor/controllers/step2Spec.js" : "2067325638",
+    "/test/unit/controllers/mirrorStepSpec.js" : "1125105506",
+    "/test/protractor/controllers/mirrorStepSpec.js" : "4232571297",
+    "/test/unit/controllers/step1Spec.js" : "2606152398",
+    "/test/unit/controllers/step2Spec.js" : "2666379984",
+    "/app/partials/widgets/berekenen.html" : "1",
+    "/test/protractor/utils/happyFlows.js" : "2628875172",
+    "/app/partials/widgets/bedrijfsmiddelKeuze.html" : "1",
+    "/app/js/controllers/step1Ctrl.js" : "2829987764",
+    "/app/js/controllers/headerCtrl.js" : "4031061853",
+    "/app/js/controllers/step2Ctrl.js" : "2834902965",
+    "/app/js/controllers/mirrorStepCtrl.js" : "3472110078"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "spectingular-core",
+  "version": "1.2.3",
+  "dependencies": {
+    "angular": "1.2.25",
+    "angular-cookies": "1.2.25",
+    "angular-sanitize": "1.2.25",
+    "angular-touch": "1.2.25",
+    "angular-resource": "1.2.25",
+    "jquery": "1.10.2",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master"
+  },
+  "ignore": [],
+  "moduleName": "ingGlobal",
+  "main": "spectingular-core.js",
+  "_release": "1.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.3",
+    "commit": "709c4568026cc38f465402df6c80e70171b66dcf"
+  },
+  "_source": "ssh://git@stash.europe.intranet:7999/bow/bower-spectingular-core.git",
+  "_target": "~1.2.2",
+  "_originalSource": "spectingular-core"
+}

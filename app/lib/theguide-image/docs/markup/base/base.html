@@ -1,0 +1,25 @@
+The <a href="http://www.w3.org/TR/html5/single-page.html#the-img-element" target="_blank"><code>img</code></a> tag has two required attributes: <code>src</code> and <code>alt</code>.</p>
+<example>
+	<demo src="base/examples/base.example.html"></demo>
+	<source-code>
+		<img src="img/betaalpas.jpg" alt="betaalpas" />
+	</source-code>
+</example>
+
+<div class="alert alert-info alert-block">
+	<i aria-hidden="true" class="icon icon-accessibility icon-blue-light icon-lg"></i>
+	<h4 class="alert-title">Accessibility</h4>
+	<ul>
+		<li>
+			The <code>alt</code> attribute on images is a very important accessibility attribute.
+			Authoring useful <code>alt</code> attribute content requires the author to carefully consider the context in
+			which the image appears and the function that image may have in that context.
+			Additional guidance and techniques are available in <a href="http://w3.org/WAI/alt/" target="_blank">Resources on Alternative Text for Images.</a>
+		</li>
+		<li>
+			When the image is used for decorative purposes only, make the <code>alt</code> text empty (alt="").
+			This indicates to assistive technologies that the image can be safely ignored. Do not add ARIA properties. Unnecessary use of ARIA roles, states and properties will have a negative impact on accessibility.
+		</li>
+	</ul>
+
+</div>

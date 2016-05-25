@@ -1,0 +1,18 @@
+{
+  "name": "highcharts",
+  "version": "4.0.3",
+  "main": [
+    "highcharts.js",
+    "highcharts-more.js",
+    "modules/exporting.js"
+  ],
+  "_release": "4.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.0.3",
+    "commit": "cb444834095550b2cf68487a622ee94568ecc0fa"
+  },
+  "_source": "git://npmjs.europe.intranet:6789/highcharts-release",
+  "_target": "4.0.3",
+  "_originalSource": "highcharts-release"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "spectingular-dependencies",
+  "version": "1.0.2",
+  "dependencies": {
+    "spectingular-core": "~1.2.2",
+    "spectingular-components": "~1.1.4",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#develop",
+    "angular": "1.2.25",
+    "angular-resource": "1.2.25",
+    "angular-animate": "1.2.25",
+    "angular-cookies": "1.2.25",
+    "angular-sanitize": "1.2.25",
+    "angular-touch": "1.2.25",
+    "angular-mocks": "1.2.25",
+    "angular-scenario": "1.2.25",
+    "angular-loader": "1.2.25",
+    "jasmine-jquery": "1.7.0",
+    "jquery": "1.10.2",
+    "highcharts-release": "4.0.3",
+    "google-marker-clusterer-plus": "2.1.2"
+  },
+  "devDependencies": {}
+}

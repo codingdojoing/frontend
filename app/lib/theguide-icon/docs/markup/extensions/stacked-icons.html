@@ -1,0 +1,171 @@
+<p>
+  Stacked icons consist of two or more icons 'stacked' on top of each other, within a container with class <code>stacked-icon</code>. The size of the icon is also set on the container, for instance <code>icon-jb</code> (<a href="">See icon sizes</a>).
+</p>
+
+<p>
+  The stacked icon class names consist of two parts:
+</p>
+
+<ol>
+  <li>The stacked icon name, for instance <code>icon-target</code>, and</li>
+  <li>the stacking order appendix. The bottom icon has appendix <code>-z1</code>, the next icon <code>-z2</code>, etc.</li>
+</ol>
+
+<div class="tg-callout tg-callout-warning">
+  <p>
+    The <code>&lt;span&gt;</code> elements must be placed according to the stacking order: <code>-z1</code> first, <code>-z2</code> second, etc.
+  </p>
+</div>
+
+<example>
+  <demo src="extensions/examples/stacked-icons.example.html"></demo>
+  <source-code>
+    <span class="stacked-icon icon-jb">
+      <span class="icon icon-target-z1 icon-orange" aria-hidden="true"></span>
+      <span class="icon icon-target-z2 icon-white" aria-hidden="true"></span>
+    </span>
+  </source-code>
+</example>
+
+
+<h5 class="heading-b-sm">Set to block-level</h5>
+
+<p>
+  By default, the stacked icon container is set to <code>display: inline-block</code>. This will normally result in a slight bottom spacing. If you need to eliminate said spacing, for instance within a table cell, or for other reasons, add class <code>icon-block</code> to the container, which will set it to <code>display: block</code>.
+</p>
+
+<div class="tg-callout tg-callout-warning">
+  <p>
+    Setting the stacked icon container to <code>display: block</code> means that it will take up the full width of its own container, so it will no longer be possible to place any text beside it within the same container.
+  </p>
+</div>
+
+<h5 class="heading-b-sm">Inline-block VS Block</h5>
+
+<p>By default the stacked icon is <code>display: inline-block</code></p>
+
+<p>When an icons needs to be placed as a block element, <code>display: block</code>, for example in a table cell so there will be no bottom spacing, add the class <code>.icon-block</code> to the stacked icon.</p>
+
+<example>
+  <demo src="extensions/examples/stacked-icons-1.example.html"></demo>
+  <source-code>
+    <span class="icon stacked-icon icon-block icon-jb">
+      <span class="icon icon-tv-full icon-gray" aria-hidden="true"></span>
+      <span class="icon icon-tv-full icon-gray" aria-hidden="true"></span>
+    </span>
+  </source-code>
+</example>
+
+
+<h5 class="heading-b-sm">Moon</h5>
+
+<p>Icons used for indicators.</p>
+
+<example>
+  <demo src="extensions/examples/stacked-icons-1-2.example.html"></demo>
+  <source-code>
+    <span class="stacked-icon icon-moon-1-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+
+    <span class="stacked-icon icon-moon-2-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+      <span class="icon" aria-hidden="true"></span>
+    </span> aria-hidden="true"
+
+    <span class="stacked-icon icon-moon-3-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+
+    <span class="stacked-icon icon-moon-4-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+
+    <span class="stacked-icon icon-moon-5-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+
+    <span class="stacked-icon icon-moon-6-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+
+    <span class="stacked-icon icon-moon-7-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+  </source-code>
+</example>
+
+
+<h5 class="heading-b-sm">TV</h5>
+
+<p>Icons used for indicators. </p>
+
+<example>
+  <demo src="extensions/examples/stacked-icons-1-2-3.example.html"></demo>
+  <source-code>
+    <span class="stacked-icon icon-tv-1-7 icon-jb">
+      <span class="icon" aria-hidden="true"></span>
+    </span>
+  </source-code>
+</example>
+
+
+<h5 class="heading-b-sm">Star rating</h5>
+
+<p>Icons used for indicators. </p>
+
+<example>
+  <demo src="extensions/examples/stacked-icons-1-2-3-4.example.html"></demo>
+  <source-code>
+
+    <span>
+      <span class="icon icon-star icon-orange icon-md" aria-hidden="true"></span>
+    </span>
+
+    <span>
+      <span class="icon icon-star icon-orange icon-md" aria-hidden="true"></span>
+    </span>
+
+    <span>
+      <span class="icon icon-star icon-orange icon-md" aria-hidden="true"></span>
+    </span>
+
+    <span class="stacked-icon icon-md">
+      <span class="icon icon-star-half-z1 icon-gray-light" aria-hidden="true"></span>
+      <span class="icon icon-star-half-z2 icon-orange" aria-hidden="true"></span>
+    </span>
+
+    <span>
+      <span class="icon icon-star icon-gray-light icon-md" aria-hidden="true"></span>
+    </span>
+
+
+  </source-code>
+</example>
+
+
+
+<h5 class="heading-b-sm">Sizes</h5>
+
+<p>Icons used for indicators.</p>
+
+<example>
+  <demo src="extensions/examples/stacked-icons-1-2-3-4-5.example.html"></demo>
+  <source-code>
+    <span class="stacked-icon icon-moon-3-7 icon-jb">
+      <span class="icon"></span>
+    </span>
+  </source-code>
+</example>
+
+
+<div class="tg-callout tg-callout-warning">
+  <h5 class="heading-b-md">Accessibility</h5>
+  <p>
+    Indicator icons must always be used in addition to a textual message.
+  </p>
+</div>

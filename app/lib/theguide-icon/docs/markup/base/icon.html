@@ -1,0 +1,36 @@
+<p>
+  Incorporating icons takes a few steps:
+</p>
+
+<ol>
+  <li>Place an <code>&lt;span&gt;</code> element (required!) with class <code>icon</code>.</li>
+  <li>
+    Add a specific icon by adding the icon name class: <code>icon-*</code>.<br>
+    <a href="/#/foundation/general#icons-variations-single-icons">List of single icon names</a><br>
+    <a href="/#/foundation/general#icons-variations-stacked-icons">List of stacked icon names</a>
+  </li>
+  <li>
+    <span aria-hidden="true" class="icon icon-accessibility icon-md" title="Accessibility"></span>
+    Add the attribute <code>aria-hidden=&quot;true&quot;</code> to the <code>&lt;span&gt;</code> element, to hide this element from assistive technologies.
+    Unfortunately, VoiceOver on OS X does read the content of pseudo elements.
+  </li>
+</ol>
+
+<source-code>
+  <span class="icon icon-*" aria-hidden="true"></span>
+</source-code>
+
+<example>
+  <demo src="base/examples/icon.example.html"></demo>
+  <source-code>
+    <span class="icon icon-email icon-md" aria-hidden="true"></span>
+  </source-code>
+</example>
+
+
+
+<div class="tg-callout tg-callout-warning">
+  <p>
+    When placing icons before or after strings of text, as in buttons or (navigation) links, be sure to leave a space between the <code>&lt;span&gt;</code> element and the text for proper spacing.
+  </p>
+</div>

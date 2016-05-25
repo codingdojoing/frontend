@@ -1,0 +1,81 @@
+<h3 class="heading-b-md">Navigation</h3>
+<p>
+  The <code>ribbon</code> is wrapped by a <code>&lt;nav&gt;</code> defined as role <code>navigation</code> and has a <code>aria-labelledby</code> reference to an element that has extra information on how many menu items the user can choose from.
+</p>
+<source-code>
+  <div class="sr-only" id="ribbon-heading">Subnavigatie met 8 items</div>
+
+
+  <nav role="navigation" aria-labelledby="ribbon-heading">
+
+    <div class="ribbon">
+      ...
+    </div>
+
+  </nav>
+
+</source-code>
+
+<h3 class="heading-b-md">Lists</h3>
+<p>
+  To prevent two separate lookup lists in assistive tools, the menu items <code>ribbon-list</code> and <code>ribbon-dropdown-menu</code> are defined as role <code>presentation</code>.
+  A complete set of menu items must be accessible without same targeted links. Links that are doubles and not visible should have the <code>aria-hidden</code> attribute.
+</p>
+<source-code>
+  <ul class="ribbon-list" role="presentation">
+    ...
+  </ul>
+
+
+  <ul class="ribbon-dropdown-menu" role="presentation">
+    ...
+  </ul>
+</source-code>
+
+<h3 class="heading-b-md">Active element</h3>
+<p>The active menu element has the attribute <code>aria-selected</code>.</p>
+
+<source-code>
+  <span class="btn btn-transparent btn-wrap ribbon-element active" aria-selected="true">
+    ...
+  </span>
+</source-code>
+
+<table class="table table-bordered table-d">
+  <caption>Roles, States, and Properties table</caption>
+  <thead>
+    <tr>
+      <th scope="col">Roles</th>
+      <th scope="col">Accessible Properties</th>
+      <th scope="col">Accessible States</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li>button</li>
+          <li>navigation</li>
+          <li>presentation</li>
+        </ul>
+      </td>
+      <td>
+        <dl>
+          <dt class="heading-b-sm">Optional</dt>
+          <dd>
+            <ul>
+              <li>aria-labelledby (mandatory at ING)</li>
+              <li>aria-described-by</li>
+            </ul>
+          </dd>
+        </dl>
+      </td>
+      <td>
+        <ul>
+          <li>aria-hidden</li>
+          <li>aria-selected</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>

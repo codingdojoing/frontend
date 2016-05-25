@@ -1,0 +1,22 @@
+{
+  "name": "theguide-radio",
+  "version": "0.1.7",
+  "owners": [
+    "The Guide"
+  ],
+  "description": "Radiobuttons is the perfect choice of input field when you have some preset values",
+  "dependencies": {
+    "angular-animate": "1.2.25",
+    "spectingular-core": "latest",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master"
+  },
+  "moduleName": "tgRadio",
+  "keywords": [
+    "tg-radio",
+    "radiobutton",
+    "radio"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-radio.js"
+}

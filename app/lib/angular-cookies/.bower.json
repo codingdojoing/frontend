@@ -1,0 +1,17 @@
+{
+  "name": "angular-cookies",
+  "version": "1.2.25",
+  "main": "./angular-cookies.js",
+  "dependencies": {
+    "angular": "1.2.25"
+  },
+  "_release": "1.2.25",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.25",
+    "commit": "bd474e08d47a9401f5f0f87bf0a2927487dac378"
+  },
+  "_source": "git://npmjs.europe.intranet:6789/angular-cookies",
+  "_target": "1.2.25",
+  "_originalSource": "angular-cookies"
+}

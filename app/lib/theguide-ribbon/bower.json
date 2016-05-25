@@ -1,0 +1,27 @@
+{
+  "name": "theguide-ribbon",
+  "version": "0.0.9",
+  "description": "A contextuel navigation bar with key products(first level) and their top tasks (second level).",
+  "owners": [
+    "The Guide"
+  ],
+  "dependencies": {
+    "angular-animate": "1.2.25",
+    "spectingular-core": "latest",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master",
+    "theguide-split-list": "latest",
+    "theguide-utils": "latest"
+  },
+  "moduleName": "tgRibbon",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ribbon",
+    "navigation",
+    "navbar"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-ribbon.js"
+}

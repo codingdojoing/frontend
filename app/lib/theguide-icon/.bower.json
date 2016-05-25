@@ -1,0 +1,42 @@
+{
+  "name": "theguide-icon",
+  "version": "0.0.15",
+  "description": "Icons are, by definition, a visual representation of an object, action, or idea.",
+  "owners": [
+    "The Guide"
+  ],
+  "dependencies": {
+    "angular-animate": "1.2.25",
+    "spectingular-core": "latest",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master"
+  },
+  "moduleName": "tgIcon",
+  "moduleType": [
+    "icon"
+  ],
+  "keywords": [
+    "tg-icon",
+    "icon",
+    "icons",
+    "SVG",
+    "logo"
+  ],
+  "ignore": [],
+  "links": [
+    {
+      "title": "Adding an icon",
+      "content": "https://confluence.europe.intranet/display/GUID/Creating+icon+in+icon+font"
+    }
+  ],
+  "newStyle": true,
+  "main": "theguide-icon.js",
+  "_release": "0.0.15",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.15",
+    "commit": "85c9bbe3f7710fdcb3f231d762bf090cc37f7a89"
+  },
+  "_source": "ssh://git@stash.europe.intranet:7999/bow/bower-theguide-icon.git",
+  "_target": "*",
+  "_originalSource": "theguide-icon"
+}

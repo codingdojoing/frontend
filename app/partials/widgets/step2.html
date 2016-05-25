@@ -1,0 +1,26 @@
+<!--<button data-ng-click="login()">inloggen</button>-->
+<!--<div>-->
+    <!--{{greeting}}-->
+<!--</div>-->
+<div id="loginCtrl" ng-controller="loginCtrl" class="row">
+    <div class="col-lg-6 col-lg-offset-3" style="text-align:center">
+        <h1>Pakket koppelen</h1>
+        <p>
+            <!--Log hier in met uw Exact Online account-->
+        </p>
+        <!--img src="/img/step2.png" /-->
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Hierbij geef ik toestemming dat ING gebruik mag maken van mijn gegevens</label>
+        </div>
+
+        <p>
+
+            <button id="koppel-exact" type="button" class="btn btn-primary" ng-click="popup()" ng-disabled="koppelExactDisabled">
+                Koppel Exact
+            </button>
+        </p>
+    </div>
+    <p>
+        <hr/>
+    </p>
+</div>

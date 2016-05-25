@@ -1,0 +1,36 @@
+<p>If you <em>can</em> use a native HTML element (HTML5) or attribute with the semantics and behaviour you require <strong>already built in</strong>, instead of re-purposing an element and adding  an <abbr title="Accessible Rich Internet Applications">ARIA</abbr> role, state or property to make it accessible<strong>, then do so</strong>.</p>
+
+<h3 class="heading-b-sm">Under what circumstances may this not be possible?</h3>
+
+<ul>
+  <li>If the visual design constraints rule out the use of a particular native element, because the element cannot be styled as required.</li>
+  <li>If the feature is <a href="http://www.paciellogroup.com/blog/2010/04/html5-and-the-myth-of-wai-aria-redundance/" target="_blank">not currently available in HTML</a>.</li>
+  <li>If the feature is available in HTML(5) but it is not implemented or it is implemented, but <a href="http://www.html5accessibility.com" target="_blank">accessibility support</a> is not.</li>
+</ul>
+
+<p>When it's not possible we will provide a fallback mechanism for native HTML elements.</p>
+
+<div class="alert alert-block alert-info ng-scope">
+  <span class="stacked-icon">
+    <i aria-hidden="true" class="icon"></i>
+    <i aria-hidden="true" class="icon"></i>
+  </span>
+  <p>
+    Images should <strong class="bold">always</strong> have an <code>alt</code>-attribute:
+  </p>
+
+  <ul>
+    <li>Images conveying information should have an <code>alt</code>-attribute containing said information.</li>
+    <li>Images that are only for illustrative purposes should have an empty <code>alt</code>-attribute.</li>
+  </ul>
+</div>
+
+
+<example>
+  <source-code>
+    <img src="images/new-head-office.jpg" alt="our new head office building" />
+
+    <img src="images/smiling-businessmen-shaking-hands.jpg" alt="" />
+
+  </source-code>
+</example>

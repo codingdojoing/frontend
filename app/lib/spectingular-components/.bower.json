@@ -1,0 +1,19 @@
+{
+  "name": "spectingular-components",
+  "version": "1.1.4",
+  "dependencies": {
+    "spectingular-core": "latest"
+  },
+  "ignore": [],
+  "moduleName": "ingComponents",
+  "main": "spectingular-components.js",
+  "_release": "1.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.4",
+    "commit": "7765909c33d93ebb3c58b7f6522a4478ea83e551"
+  },
+  "_source": "ssh://git@stash.europe.intranet:7999/bow/bower-spectingular-components.git",
+  "_target": "~1.1.4",
+  "_originalSource": "spectingular-components"
+}

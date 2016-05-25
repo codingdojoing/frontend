@@ -1,0 +1,107 @@
+{
+  "docs": {
+    "markup": [
+      {
+        "title": "",
+        "content": "introduction/introduction.html"
+      },
+      {
+        "title": "Base",
+        "content": "base/base.html"
+      },
+      {
+        "title": "Parts",
+        "sections": [
+          {
+            "title": "Container",
+            "content": "parts/container.html"
+          },
+          {
+            "title": "Dropdown",
+            "content": "parts/dropdown.html"
+          },
+          {
+            "title": "Dropdown menu",
+            "content": "parts/dropdown-menu.html"
+          },
+          {
+            "title": "Element",
+            "content": "parts/element.html"
+          },
+          {
+            "title": "Element arrow",
+            "content": "parts/element-arrow.html"
+          },
+          {
+            "title": "Element icon",
+            "content": "parts/element-icon.html"
+          },
+          {
+            "title": "Element text",
+            "content": "parts/element-text.html"
+          },
+          {
+            "title": "List",
+            "content": "parts/list.html"
+          },
+          {
+            "title": "Wrapper",
+            "content": "parts/wrapper.html"
+          }
+        ]
+      },
+      {
+        "title": "Options global",
+        "sections": [
+          {
+            "title": "Inverse",
+            "content": "options-global/inverse.html"
+          }
+        ]
+      },
+      {
+        "title": "States",
+        "sections": [
+          {
+            "title": "Active",
+            "content": "states/active.html"
+          },
+          {
+            "title": "Hover and focus",
+            "content": "states/hover-focus.html"
+          }
+        ]
+      },
+      {
+        "title": "Sizes",
+        "content": "sizes/sizes.html"
+      },
+      {
+        "title": "Variations",
+        "sections": [
+          {
+            "title": "A",
+            "content": "variations/a.html"
+          }
+        ]
+      },
+      {
+        "title": "Accessibility",
+        "sections": [
+          {
+            "title": "Hidden html",
+            "content": "accessibility/hidden-html.html"
+          },
+          {
+            "title": "Keyboard Interaction",
+            "content": "accessibility/keyboard-interaction.html"
+          },
+          {
+            "title": "Roles, States, and Properties",
+            "content": "accessibility/roles-states-properties.html"
+          }
+        ]
+      }
+    ]
+  }
+}

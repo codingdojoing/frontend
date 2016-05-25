@@ -1,0 +1,77 @@
+<p>The <a class="role-reference" href="http://www.w3.org/TR/html5/grouping-content.html#the-figure-element" target="_blank"><code>figure</code></a> encapsulates self-contained content on a webpage
+  like illustrations, diagrams, photos, code listings, etc. The <code>figure</code> element can contain an
+optional <a href="http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element" target="_blank"><code>figcaption</code></a> that is used as a caption or legend for the <code>figure</code>.
+  The <code>figcaption</code> must be the first or the last child of the <code>figure</code> element.</p>
+
+<p>Together the <code>figure</code> and <code>figcaption</code> elements can be used to annotate images.</p>
+
+<example>
+  <demo src="extensions/examples/figure.example.html"></demo>
+  <source-code>
+    <figure role="group" aria-labelledby="caption-1">
+      <img class="img-xxgg" src="..." alt="In de keuken op locatie de laatste dingen regelen.">
+      <figcaption id="caption-1">Mobiel werken</figcaption>
+    </figure>
+  </source-code>
+</example>
+
+<div class="alert alert-info alert-block">
+  <i aria-hidden="true" class="icon icon-accessibility icon-blue-light icon-lg"></i>
+  <h4 class="alert-title">Accessibility</h4>
+  <ul>
+    <li>The ARIA <a class="role-reference" href="http://www.w3.org/TR/wai-aria/roles#group" target="_blank"><code>role="group"</code></a> is used to indicate the semantics of the <code>figure</code> and the labelling relationship of <code>figcaption</code> to assistive technologies.</li>
+
+    <li>Until the <code>figure</code> is fully supported by all browsers you should provide
+      a <a class="property-reference" href="http://www.w3.org/TR/wai-aria/states_and_properties#aria-labelledby" target="_blank"><code>aria-labelledby</code></a>
+      (mandatory at ING) to ensure that the <code>figcaption</code> is seen as the label for the <code>figure</code>.
+    </li>
+
+    <li>When the <code>figure</code> is referred to from the main content of the document,
+      it enables the <code>figure</code> to be moved away but without affecting the flow of the document.
+      That's why labels should be used to refer to figures,
+      rather than relative references (ex.: "See figure no.3" instead of "See below").</li>
+  </ul>
+</div>
+
+<p>Multiple images can be nested in a <code>figure</code> with a single <code>figcaption</code></p>
+
+<example>
+  <demo src="extensions/examples/figure-1.example.html"></demo>
+  <source-code>
+    <figure role="group" aria-labelledby="caption-main">
+
+      <img class="img-gg" src="img/16-9-theme-a.jpg" alt="samenwerken voorbeeld 1" />
+      <img class="img-gg" src="img/16-9-theme-b.jpg" alt="samenwerken voorbeeld 2" />
+      <img class="img-gg" src="img/16-9-theme-c.jpg" alt="samenwerken voorbeeld 3" />
+      <img class="img-gg" src="img/16-9-theme-d.jpg" alt="samenwerken voorbeeld 4" />
+
+      <figcaption id="caption-main">Samenwerken kan op vele manieren</figcaption>
+    </figure>
+  </source-code>
+</example>
+
+
+<p>The <code>figure</code> itself can be <a href="http://www.w3.org/TR/html-alt-techniques/#nested" target="_blank">nested</a> to provide both a group caption and individual captions for each
+  <code>figure</code> in the group.
+</p>
+
+<example>
+  <demo src="extensions/examples/figure-1-2.example.html"></demo>
+  <source-code>
+    <figure role="group" aria-labelledby="caption-main">
+
+      <figcaption id="caption-main">Betaalpassen van de ING</figcaption>
+
+      <figure role="group" aria-labelledby="caption-1">
+        <img src="..." alt="De standaard oranje betaalpas">
+        <figcaption id="caption-1">Standaard betaalpas</figcaption>
+      </figure>
+
+      <figure role="group" aria-labelledby="caption-2">
+        <img src="..." alt="De betaalpas voor jeugdige klanten">
+        <figcaption  id="caption-2">Jeugd betaalpas</figcaption>
+      </figure>
+
+    </figure>
+  </source-code>
+</example>

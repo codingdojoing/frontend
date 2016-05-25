@@ -1,0 +1,7 @@
+{
+    "directory": "lib/"    
+    "registry": "http://bower.europe.intranet:8765/",
+    "timeout": 300000,
+    "proxy": "",
+    "https-proxy": ""
+}

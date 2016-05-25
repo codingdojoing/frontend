@@ -1,0 +1,23 @@
+{
+  "name": "theguide-full-cover",
+  "version": "0.1.13",
+  "description": "A full-cover spans the full-width of a webpage.",
+  "owners": [
+    "The Guide"
+  ],
+  "dependencies": {
+    "spectingular-core": "latest",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master",
+    "jquery": "~1.10.2",
+    "angular-animate": "1.2.25"
+  },
+  "moduleName": "tgFullCover",
+  "keywords": [
+    "full-cover",
+    "tg-full-cover",
+    "tgFullCover"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-full-cover.js"
+}

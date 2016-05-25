@@ -1,0 +1,8 @@
+{
+	"name": "the-guide-styles",
+	"version": "1.0.2",
+	"main": "css/the-guide-styles.css",
+	"private": true,
+	"ignore": [],
+	"dependencies": { }
+}

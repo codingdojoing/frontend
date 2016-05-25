@@ -1,0 +1,16 @@
+{
+  "name": "theguide-utils",
+  "version": "0.0.12",
+  "description": "The guide ui utils service: tgUtils",
+  "dependencies": {},
+  "moduleName": "tgUtils",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "theguide-utils"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-utils.js"
+}

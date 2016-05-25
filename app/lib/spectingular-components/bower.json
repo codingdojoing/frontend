@@ -1,0 +1,10 @@
+{
+  "name": "spectingular-components",
+  "version": "1.1.4",
+  "dependencies": {
+    "spectingular-core": "latest"
+  },
+  "ignore": [],
+  "moduleName": "ingComponents",
+  "main": "spectingular-components.js"
+}

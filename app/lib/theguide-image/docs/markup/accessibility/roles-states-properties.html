@@ -1,0 +1,61 @@
+<h3 class="heading-b-md">Img</h3>
+
+<div class="alert alert-info alert-block">
+	<i aria-hidden="true" class="icon icon-accessibility icon-blue-light icon-lg"></i>
+	<h4 class="alert-title">Accessibility</h4>
+	<ul>
+		<li>Use <a href="http://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby" target="_blank"><code>aria-describedby</code></a> to provide descriptions of images when a short text alternative does not adequately explains the image.</li>
+		<li>Separated by a space, multiple ID's can be used as a reference.</li>
+	</ul>
+</div>
+
+
+<source-code>
+	<img src="ladymacbeth.jpg" alt="Lady MacBeth" aria-describedby="p1">
+	...
+	<p id="p1">This painting dates back to 1730 and is oil on canvas. It was created by
+		Jean-Guy Millome, and represents ...</p>
+
+</source-code>
+
+
+<div class="alert alert-warning alert-block">
+
+  <span class="stacked-icon">
+    <i aria-hidden="true" class="icon"></i>
+    <i aria-hidden="true" class="icon"></i>
+  </span>
+
+  <h4 class="alert-title">In case of decorative use</h4>
+
+  <p>
+    When the image is used for decorative purposes only, <em class="italic">do not add ARIA properties</em>. Unnecessary use of ARIA roles, states and properties will have a negative impact on accessibility.
+  </p>
+	<p>In that case make the <code>alt</code> text empty (alt=""). This indicates to assistive technologies that the image can be safely ignored.</p>
+
+</div>
+
+<table class="table table-bordered table-d">
+	<caption>Roles, States, and Properties table</caption>
+	<thead>
+	<tr>
+		<th scope="col">Roles</th>
+		<th scope="col">Accessible Properties</th>
+		<th scope="col">Accessible States</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>
+		</td>
+		<td>
+			<h5 class="heading-b-sm">Optional</h5>
+			<ul>
+				<li>aria-describedby</li>
+			</ul>
+		</td>
+		<td>
+		</td>
+	</tr>
+	</tbody>
+</table>

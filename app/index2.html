@@ -1,0 +1,99 @@
+<!doctype html>
+<!-- this index file is only for local development!! On DEV/PRD the index.html will be served from CDS-->
+<html lang="en" ng-app="xbrlImportDev">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>requestLease</title>
+
+    <!-- This section is controlled by the generator adjustments will be discarded on regeneration -->
+    <!-- panama:js -->
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-loader/angular-loader.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-mocks/angular-mocks.js"></script>
+    <script src="lib/angular-touch/angular-touch.js"></script>
+    <script src="lib/angular-cookies/angular-cookies.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="lib/Chart.js/Chart.js"></script>
+    <script src="lib/angular-chart.js/angular-chart.js"></script>
+    <script src="lib/tc-angular-chartjs/dist/tc-angular-chartjs.min.js"></script>
+    <script src="lib/spectingular-core/spectingular-core.js"></script>
+    <script src="lib/spectingular-components/spectingular-components.js"></script>
+    <script src="lib/theguide-full-cover/theguide-full-cover.min.js"></script>
+    <script src="lib/theguide-icon/theguide-icon.min.js"></script>
+    <script src="lib/theguide-comparison-table/theguide-comparison-table.js"></script>
+    <script src="lib/theguide-utils/theguide-utils.min.js"></script>
+    <script src="lib/theguide-image/theguide-image.min.js"></script>
+
+    <!--the-guide-styles-->
+    <!--[if gt IE 9]><!-->    <link rel="stylesheet" href="lib/the-guide-styles/css/the-guide-styles-responsive.css" />
+    <link rel="stylesheet" href="lib/the-guide-styles/css/the-guide-styles-responsive.css" />
+    <!--<![endif]-->
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="lib/the-guide-styles/bless/the-guide-styles-responsive-blessed1.css"/>
+    <link rel="stylesheet" href="lib/angular-chart.js/dist/angular-chart.css">
+    <link rel="stylesheet" href="css/xbrlImport.css">
+    <![endif]-->
+    <!--ming-z frame stuff -->
+    <link rel="shortcut icon" href="https://www.ing.nl/static/images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://www.ing.nl/static/images/touch-icon.png">
+    <link rel="stylesheet" href="https://www.ing.nl/static/css/jquery-ui/jquery-ui-1.8.7.custom.css">
+
+    <link type="text/css" rel="stylesheet" href="https://www.ing.nl/static/web/core/css/style-1.0.0.css" />
+    <link type="text/css" rel="stylesheet" href="https://www.ing.nl/static/web/riaf/css/style-1.0.0.css" />
+    <link type="text/css" rel="stylesheet" href="https://www.ing.nl/static/web/cms/css/style-z-1.0.0.css" />
+
+    <!--the-guide-styles-->
+    <script src="js/services/pdf/panama-api-clients.js"></script>
+    <script src="js/_xbrlImport.js"></script>
+    <script src="js/services/mainService.js"></script>
+    <script src="js/services/doghnutChartService.js"></script>
+    <script src="js/services/pieChartService.js"></script>
+    <script src="js/services/lineChartService.js"></script>
+    <script src="js/services/dataService.js"></script>
+    <script src="js/controllers/mainCtrl.js"></script>
+    <script src="js/controllers/loginCtrl.js"></script>
+    <script>
+        var xbrlImportDev =
+            angular.module('xbrlImportDev', ['xbrlImport']);
+//        xbrlImportDev.run(function($httpBackend) {
+//            $httpBackend.whenGET(/partials\/.*/).passThrough();
+//
+//        });
+    </script>
+    <script>
+        window.digitalData = {};
+    </script>
+    <!-- panama:endjs -->
+    <!-- End generator controlled section -->
+
+</head>
+
+<body>
+<div class="riaf-header" role="banner" aria-labelledby="ing-logo" ng-include="'partials/mocks/header.html'"></div>
+
+<div class="riaf-main clearfix">
+
+    <div class="breadcrumb">
+        <a class="riaf-link riaf-link-primary riaf-link-back-arrow" title="Terug naar Mijn ING Zakelijk Overzicht" alt="Terug naar Mijn ING Zakelijk Overzicht" href="/zakelijk/betalen/index"><span>Mijn ING Zakelijk overzicht</span></a>
+    </div>
+
+    <div class="riaf-content">
+
+        <div ng-app="xbrlImportDev" ng-cloak class="container">
+            <div ng-include src="'partials/widgets/xbrlImport-index.html'"></div>
+        </div>
+
+    </div>
+
+    <div role="complementary" class="riaf-workbench riaf-workbench-small" ng-include="'partials/mocks/workbench.html'"></div>
+</div>
+
+<div class="riaf-doormat clearfix" role="navigation" aria-labelledby="riaf-doormat-header-label" ng-include src="'partials/mocks/doormat.html'"></div>
+</html>

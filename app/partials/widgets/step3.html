@@ -1,0 +1,171 @@
+
+    <div data-ng-controller="mainCtrl as controller">
+        <tg-full-cover aria-labelledby="cover1" color="a" arrow="true">
+            <div class="row">
+                <h1>Impact van uw investering</h1>
+                <div class="col-lg-6 col-md-6 col-xs-8 col-xxs-10">
+                    <div class="col-lg-8 col-md-8 col-xs-8 col-xxs-10">
+                        <canvas tc-chartjs-doughnut chart-options="options1" chart-data="data1()">Omzet</canvas>
+                        <div class="col-lg-offset-5">Omzet</div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-8 col-xxs-10">
+                        <dl class="dl-title-bold">
+                            <dt id="firstTermBold-label"><tg-icon class="icon-orange" font-icon="rectangle-rounded"></tg-icon> Bruto winstmarge</dt>
+                            <dt id="firstTermBold-label1"><tg-icon class="icon-blue-light" font-icon="rectangle-rounded"></tg-icon> Inkoop goederen</dt>
+                        </dl>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-8 col-xxs-10">
+                    <div class="col-lg-8 col-md-8 col-xs-8 col-xxs-10">
+                        <canvas tc-chartjs-doughnut chart-options="options2" chart-data="data2()" ></canvas>
+                        <div class="col-lg-offset-5">Kosten</div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-8 col-xxs-10">
+                        <dl class="dl-title-bold">
+                            <dt id="firstTermBold-label3"><tg-icon class="icon-orange" font-icon="rectangle-rounded"></tg-icon> Personeel</dt>
+                            <dt id="firstTermBold-label4"><tg-icon class="icon-blue-light" font-icon="rectangle-rounded"></tg-icon> Afschrijvingen</dt>
+                            <dt id="firstTermBold-label5"><tg-icon class="icon-green" font-icon="rectangle-rounded"></tg-icon> Overige kosten</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <div class="l-p-2"/>
+            <h3>U winst- en verliesrekening na investering </h3>
+
+            <div class="row">
+                <div class="col-lg-11 col-md-11">
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.omzet.label}}</div>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div data-ng-hide="showEdit">{{tabelData.omzet.br1 | ingCurrency:0}}</div>
+                            <div data-ng-show="showEdit"><input data-ng-model="tabelData.omzet.br1" /></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.kostprijsInkoop.label}}</div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.kostprijsInkoop.br1 | ingCurrency:0}}</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div><b>{{tabelData.brutomarge.label}}</b></div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div><b>{{brutomarge() | ingCurrency:0}}</b></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.personeelskosten.label}}</div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div data-ng-hide="showEdit">{{tabelData.personeelskosten.br1 | ingCurrency:0}}</div>
+                            <div data-ng-show="showEdit"><input data-ng-model="tabelData.personeelskosten.br1" /></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.afschrijvingen.label}}</div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.afschrijvingen.br1 | ingCurrency:0}}</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.overigeKosten.label}}</div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div data-ng-hide="showEdit">{{tabelData.overigeKosten.br1 | ingCurrency:0}}</div>
+                            <div data-ng-show="showEdit"><input data-ng-model="tabelData.overigeKosten.br1" /></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div><b>Bedrijfsresultaat</b></div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div><b>{{bedrijfsresultaat() | ingCurrency:0}}</b></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.rentelasten.label}}</div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div>{{tabelData.rentelasten.br1 | ingCurrency:0}}</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                            <div><b>{{tabelData.resultaat.label}}</b></div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div><b>{{resultaat() | ingCurrency:0}}</b></div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="row col-lg-offset-3">
+                <a href="#" title="" data-ng-click="showEdit = !showEdit">Gegevens wijzigen</a>
+            </div>
+            <div class="row l-p-2"></div>
+            </tg-full-cover>
+        <tg-full-cover aria-labelledby="cover1" color="b" arrow="false">
+            <div class="col-lg-11 col-md-12">
+                <h1>Prognoses</h1>
+                <p>
+                    Onderstaande tabel toont een worst-case scenario (pessimistische prognose), een flat-case scenario (neutrale prognose) en een management scenario (positieve prognose).
+                </p>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12 col-xxs-12">
+                <div class="col-lg-8 col-md-8 col-xs-8 col-xxs-10">
+                    <canvas tc-chartjs-line chart-options="options3" chart-data="data3">Omzet</canvas>
+                    <div class="col-lg-offset-5">{{isToggled}}</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-8 col-xxs-10">
+                    <p>
+                        <button type="button" class="btn btn-primary" ng-click="toggleChart('omzet')" ng-disabled="!(isToggled !== 'omzet')">
+                            <i class="icon icon-arrow-g-right icon-lg" aria-hidden="true"></i> Omzet
+                        </button>
+                    </p>
+
+                    <p>
+                        <button type="button" class="btn btn-primary" ng-click="toggleChart('kosten')" ng-disabled="!(isToggled !== 'kosten')">
+                            <i class="icon icon-arrow-g-right icon-lg" aria-hidden="true"></i> Kosten
+                        </button>
+                    </p>
+
+                    <p>
+                        <button type="button" class="btn btn-primary" ng-click="toggleChart('bedrijfsresultaat')" ng-disabled="!(isToggled !== 'bedrijfsresultaat')">
+                            <i class="icon icon-arrow-g-right icon-lg" aria-hidden="true"></i> Bedrijfsresultaat
+                        </button>
+                    </p>
+
+                </div>
+            </div>
+        </tg-full-cover>
+
+
+
+        <!--</div>-->
+        <div class="l-p-2"></div>
+    </div>
+<!--</div>-->

@@ -1,0 +1,25 @@
+{
+  "name": "theguide-utils",
+  "version": "0.0.12",
+  "description": "The guide ui utils service: tgUtils",
+  "dependencies": {},
+  "moduleName": "tgUtils",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "theguide-utils"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-utils.js",
+  "_release": "0.0.12",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.12",
+    "commit": "e740ac8628abb79a2e4d3ce599246bd72a72ed7f"
+  },
+  "_source": "ssh://git@stash.europe.intranet:7999/bow/bower-theguide-utils.git",
+  "_target": "*",
+  "_originalSource": "theguide-utils"
+}

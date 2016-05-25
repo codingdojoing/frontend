@@ -1,0 +1,12 @@
+{
+  "name": "spectingular-forms",
+  "version": "1.0.0",
+  "dependencies": {
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master",
+    "spectingular-core": "latest",
+    "spectingular-components": "latest"
+  },
+  "moduleName": "ingComponents.forms",
+  "ignore": [],
+  "main": "spectingular-forms.js"
+}

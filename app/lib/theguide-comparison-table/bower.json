@@ -1,0 +1,22 @@
+{
+  "name": "theguide-comparison-table",
+  "version": "0.1.15",
+  "description": "The product comparison table lines up two or more products side by side.",
+  "owners": [
+    "The Guide"
+  ],
+  "dependencies": {
+    "angular-animate": "1.2.25",
+    "spectingular-core": "latest",
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master",
+    "theguide-utils": "latest"
+  },
+  "moduleName": "tgComparisonTable",
+  "keywords": [
+    "comparison-table",
+    "tgComparisonTable"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-comparison-table.js"
+}

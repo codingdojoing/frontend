@@ -1,0 +1,1 @@
+A picture is worth a thousands words! This image component should be used for all images and gives control over loading behaviour, responsive behaviour, appearance and accessibility. This component makes it easy to implement images and preserves a consistent behaviour and look & feel.

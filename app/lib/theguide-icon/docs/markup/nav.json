@@ -1,0 +1,61 @@
+{
+  "alwaysShowMarkup": true,
+  "description": "Icons are, by definition, a visual representation of an object, action, or idea.",
+  "docs": [
+    {
+      "title": "",
+      "content": "introduction/introduction.html"
+    },
+    {
+      "title": "Base",
+      "content": "base/icon.html"
+    },
+    {
+      "title": "Options global",
+      "sections": [
+        {
+          "title": "Colors",
+          "content": "options-global/colors.html"
+        },
+        {
+          "title": "Inline",
+          "content": "options-global/inline.html"
+        }
+      ]
+    },
+    {
+      "title": "Sizes",
+      "content": "sizes/sizes.html"
+    },
+    {
+      "title": "Variations",
+      "sections": [
+        {
+          "title": "Single icons",
+          "content": "variations/single-icons.html"
+        },
+        {
+          "title": "Stacked icons",
+          "content": "variations/stacked-icons.html"
+        }
+      ]
+    },
+    {
+      "title": "Extensions",
+      "sections": [
+        {
+          "title": "Stacked icons",
+          "content": "extensions/stacked-icons.html"
+        },
+        {
+          "title": "Figure",
+          "content": "extensions/figure.html"
+        }
+      ]
+    },
+    {
+      "title": "Usage",
+      "content": "usage/usage.html"
+    }
+  ]
+}

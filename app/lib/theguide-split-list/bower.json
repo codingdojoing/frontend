@@ -1,0 +1,20 @@
+{
+  "name": "theguide-split-list",
+  "version": "0.0.8",
+  "description": "The guide helper component: split-list. Please note this is a 'private' directive, meant for use in the Guide components",
+  "dependencies": {
+    "spectingular-core": "latest",
+    "theguide-toggle": "latest",
+    "theguide-utils": "latest"
+  },
+  "moduleName": "tgSplitList",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "split-list"
+  ],
+  "ignore": [],
+  "newStyle": true,
+  "main": "theguide-split-list.js"
+}

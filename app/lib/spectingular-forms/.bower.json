@@ -1,0 +1,20 @@
+{
+  "name": "spectingular-forms",
+  "dependencies": {
+    "the-guide-styles": "ssh://git@stash.europe.intranet:7999/bow/bower-the-guide-styles.git#master",
+    "spectingular-core": "latest",
+    "spectingular-components": "latest"
+  },
+  "moduleName": "ingComponents.forms",
+  "ignore": [],
+  "main": "spectingular-forms.js",
+  "_release": "8e641b5aee",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8e641b5aee5e7f89304c7be5c04a016e4d9615b4"
+  },
+  "_source": "ssh://git@stash.europe.intranet:7999/bow/bower-spectingular-forms.git",
+  "_target": "master",
+  "_originalSource": "ssh://git@stash.europe.intranet:7999/bow/bower-spectingular-forms.git"
+}
